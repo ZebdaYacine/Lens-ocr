@@ -1,0 +1,5 @@
+indra-ocr
+pymupdf
+Pillow
+requests
+numpy==1.26.4
