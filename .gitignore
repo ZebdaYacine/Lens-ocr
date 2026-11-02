@@ -1,0 +1,55 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and local Python tooling
+.venv/
+venv/
+env/
+ENV/
+pip-wheel-metadata/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.local
+
+# PyInstaller and Windows build output
+build/
+dist/
+installer/
+*.spec.bak
+*.exe
+*.msi
+*.zip
+
+# Locally staged OCR models. The build script copies these from the
+# Hugging Face cache or from the directory passed with -ModelDir.
+models/
+
+# OCR exports and temporary input/output files created during testing
+*_selected*.txt
+*-result.txt
+*_result.txt
+ocr-output/
+ocr-output-*/
+tmp/
+temp/
+
+# Logs and editor/OS files
+*.log
+*.tmp
+*.bak
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+

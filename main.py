@@ -1,9 +1,9 @@
-"""Command-line entry point for the merged ClearRead OCR/UI module."""
+"""Command-line OCR entry point for SinLens."""
 from __future__ import annotations
 
 import argparse
 
-from ui import run
+from sinlens.ui import run
 
 
 if __name__ == "__main__":

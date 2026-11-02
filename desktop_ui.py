@@ -1,5 +1,5 @@
-"""Backward-compatible launcher for the merged ClearRead desktop UI."""
-from ui import ClearReadDesktop
+"""Launch the SinLens desktop interface."""
+from sinlens.ui import ClearReadDesktop
 
 
 if __name__ == "__main__":
